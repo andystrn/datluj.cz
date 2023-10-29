@@ -1,19 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap');
+
 .wordbox {
   display: inline-block;
   position: relative;
   padding: 16px;
   margin: 4px;
-  background-color: #8fb935;
+  background-color: #23a6d5;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   font-size: 16px;
+  color: white;
   line-height: 16px;
   border-radius: 8px;
   z-index: 1;
+  filter: blur(1px)
+}
+
+.wordbox:first-child {
+  border: 2px solid rgb(89, 85, 85);
+  filter: blur(0px)
 }
 
 .wordbox--mistake {
-  background-color: #e64747;
-  color: white;
+  background-color: #ee2424;
 }
+
